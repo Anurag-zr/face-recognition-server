@@ -1,0 +1,22 @@
+{
+  "name": "face-recognition-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon ./faceRecognitionServer.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
